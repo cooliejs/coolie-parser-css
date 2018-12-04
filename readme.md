@@ -1,4 +1,4 @@
 # coolie-parser-css
 
-coolie 渲染器：html
+coolie 解析器：css
 
