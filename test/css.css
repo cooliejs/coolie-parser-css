@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+/**
+ * Paste or drop some CSS here and explore
+ * the syntax tree created by chosen parser.
+ * Enjoy!
+ */
+
+@import "style.css";
+
+@media screen and (min-width: 480px) {
+    body {
+        background: lightgreen url(image.png) center no-repeat;
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
+}
+
+#main {
+    border: 1px solid black;
+    transform: rotate(30deg) translate(10px, 10px);
+}
+
+ul li {
+    padding: 5px;
+}
+
+/deep/ {
+    width: 1000px;
+}
+
+@keyframes abc {
+    0% {
+        width: 100px;
+    }
+
+    50% {
+        width: 200px;
+    }
+
+    100% {
+        width: 300px;
+    }
+}
